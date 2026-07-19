@@ -1,0 +1,44 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.idea
+buildSrc/.gradle
+buildSrc/.kotlin
+buildSrc/build
+# Keystore files
+*.jks
+*.keystore
+.github/copilot-instructions.md
+CLAUDE.md
+todo.md
+AGENTS.md
+scripts
+.claude
+/cloudflare-worker/
+/netlify-premium/
+/premium-backend/
+/supabase/
+# Premium plugin source and build tools — not distributed in this repo
+/premium/
+/tools/
+
+# Local Netlify folder
+.netlify
+.codegraph
+.antigravitycli
+.agent
+.agents
+.codex
+.trellis

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/ui_background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="App Name"
+        android:textColor="@color/ui_text_primary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/btn_freeze"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="16dp"
+        android:text="@string/dialog_freeze"
+        android:textColor="@color/ui_text_primary"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/btn_unfreeze"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="16dp"
+        android:text="@string/dialog_unfreeze"
+        android:textColor="@color/ui_text_primary"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/btn_run"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="16dp"
+        android:text="@string/dialog_run"
+        android:textColor="@color/ui_text_primary"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/btn_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="16dp"
+        android:text="@string/dialog_app_info"
+        android:textColor="@color/ui_text_primary"
+        android:textSize="16sp"/>
+
+</LinearLayout>
