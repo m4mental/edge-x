@@ -1,4 +1,4 @@
-package com.fan.edgex.premium
+package com.m4.edgex.premium
 
 import android.content.Context
 

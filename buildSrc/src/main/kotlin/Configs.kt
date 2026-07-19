@@ -5,8 +5,8 @@ object Configs {
     const val minSdk = 35
     const val targetSdk = 36
 
-    const val namespace = "com.fan.edgex"
-    const val applicationId = "com.fan.edgex"
+    const val namespace = "com.m4.edgex"
+    const val applicationId = "com.m4.edgex"
     const val versionCode = 210
     const val versionName = "2.1.0"
 

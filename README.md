@@ -16,22 +16,14 @@
   <strong><a href="README_CN.md">中文</a></strong>
 </p>
 
-## Preview
-
-<p align="center">
-  <img src="docs/gif/preview_1.gif" alt="EdgeX preview 1" height="340" />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="docs/gif/preview_2.gif" alt="EdgeX preview 2" height="340" />
-</p>
-
 ## Overview
 
-EdgeX is not a regular floating-window utility. The app process is only the configuration surface; the module logic runs entirely inside the `system_server` process injected by LSPosed/Xposed:
+EdgeX is an LSPosed/Xposed module designed to enhance Android interaction through gestures and system-level hooks.
 
 - `android` (system_server): edge touch handling, hardware key interception, all action dispatch, freezer drawer, clipboard history overlay, universal copy overlay, and other system-side surfaces.
-- `com.fan.edgex`: settings UI and cross-process configuration storage.
+- `com.m4.edgex`: settings UI and cross-process configuration storage.
 
-It is intended for rooted LSPosed users who want Xposed Edge-style shortcuts on modern Android: Back, Home, Recents, screenshots, app launch, app shortcuts, shell commands, freezer drawer, clipboard history, universal copy, and more.
+It is intended for rooted LSPosed users who want powerful shortcuts on modern Android: Back, Home, Recents, screenshots, app launch, app shortcuts, shell commands, freezer drawer, clipboard history, universal copy, and more.
 
 ## Features
 
@@ -47,7 +39,6 @@ It is intended for rooted LSPosed users who want Xposed Edge-style shortcuts on 
 - **Clipboard history**: show the last 50 clipboard entries in a bottom-sheet overlay; tap any entry to inject it into the focused field, or delete individual entries.
 - **Universal copy**: collect accessible text from the current screen and copy selected text blocks from an overlay.
 - **Shell commands**: bind custom commands to gestures or keys, with optional `su` execution.
-- **Media controls**: play/pause, stop, previous track, and next track.
 - **Debug and theming**: gesture-zone debug overlay, SystemUI restart shortcut, haptic feedback on action trigger, and configurable accent colors.
 
 ## Requirements
@@ -87,8 +78,6 @@ It is intended for rooted LSPosed users who want Xposed Edge-style shortcuts on 
 | Pixel 9                | 16      | [`LSPosed 1.9.2-it(7455)`](https://github.com/LSPosed/Lsposed) | [KernelSU](https://github.com/tiann/KernelSU) |
 | Android Virtual Device | 16      | [`Vector 2.0(3021)`](https://github.com/JingMatrix/Vector)     | [Magisk](https://github.com/topjohnwu/Magisk) |
 
-This is the currently verified development setup, not a strict compatibility limit. Other devices and ROMs may require additional adaptation.
-
 ## Reporting Issues
 
 Useful issue details:
@@ -101,7 +90,7 @@ Useful issue details:
 
 ## Support
 
-If you find EdgeX useful, you can support development via [Ko-fi](https://ko-fi.com/fantasy1999).
+If you find EdgeX useful, you can support development via [m4mental](https://github.com/m4mental/edge-x).
 
 ## Credits
 

@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.fan.edgex.premium.api"
+    namespace = "com.m4.edgex.premium.api"
     compileSdk = Configs.compileSdk
 
     defaultConfig {

@@ -85,8 +85,8 @@
     <string name="label_author">Author</string>
     <string name="label_project_url">Project URL</string>
     <string name="label_version">Version</string>
-    <string name="value_author">fantasy1999</string>
-    <string name="value_project_url">github.com/fcmfcm1999/EdgeX</string>
+    <string name="value_author">m4mental</string>
+    <string name="value_project_url">github.com/m4mental/edge-x</string>
     <string name="value_version">0.1</string>
 
     <!-- Update Checker -->
